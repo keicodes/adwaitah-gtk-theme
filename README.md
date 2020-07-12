@@ -8,7 +8,7 @@ A less ancient look for the GTK theme Adwaita.
 
 ## Screenshots
 
-![Screenshot #1](https://github.com/keicodes/adwaitah-gtk-theme/docs/screenshots/1.png)
+![Screenshot #1](https://raw.githubusercontent.com/keicodes/adwaitah-gtk-theme/master/docs/screenshots/1.png)
 
 ## Install
 
