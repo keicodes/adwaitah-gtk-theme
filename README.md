@@ -8,6 +8,8 @@ A less ancient look for the GTK theme Adwaita.
 
 ## Screenshots
 
+Icons used in the screenshot [Flat Remix](https://github.com/daniruiz/flat-remix)
+
 ![Screenshot #1](https://raw.githubusercontent.com/keicodes/adwaitah-gtk-theme/master/docs/screenshots/1.png)
 
 ## Install
