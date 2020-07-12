@@ -1,8 +1,14 @@
 # Adwaitah
 
-Modern GTK theme based on Adwaita.
+A less ancient look for the GTK theme Adwaita.
 
-Still in development.
+**Still in development!**
+
+[![license: WTFPL](https://img.shields.io/badge/license-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
+
+## Screenshots
+
+![Screenshot #1](https://github.com/keicodes/adwaitah-gtk-theme/docs/screenshots/1.png)
 
 ## Install
 
@@ -11,3 +17,4 @@ Install using
 `sh install.sh`
 
 and select the theme on the Gnome Tweaks panel.
+
