@@ -1,0 +1,25 @@
+toolbar, .inline-toolbar, searchbar > revealer > box, .location-bar { -GtkWidget-window-dragging: true; padding: 4px; background-color: #f6f5f4; }
+
+toolbar { padding: 4px 3px 3px 4px; }
+
+.osd toolbar { background-color: transparent; }
+
+toolbar.osd { padding: 13px; border: none; border-radius: 5px; background-color: rgba(36, 33, 42, 0.7); }
+
+toolbar.osd.left, toolbar.osd.right, toolbar.osd.top, toolbar.osd.bottom { border-radius: 0; }
+
+toolbar.horizontal separator { margin: 0 7px 1px 6px; }
+
+toolbar.vertical separator { margin: 6px 1px 7px 0; }
+
+toolbar:not(.inline-toolbar):not(.osd) > *:not(.toggle):not(.popup) > * { margin-right: 1px; margin-bottom: 1px; }
+
+.inline-toolbar { padding: 3px; border-width: 0 1px 1px; border-radius: 0  0 5px 5px; }
+
+searchbar > revealer > box, .location-bar { border-width: 0 0 1px; padding: 3px; }
+
+searchbar > revealer > box { margin: -6px; padding: 6px; }
+
+.inline-toolbar, searchbar > revealer > box, .location-bar { border-style: solid; border-color: #cdc7c2; background-color: #eae7e5; }
+
+.inline-toolbar:backdrop, searchbar > revealer > box:backdrop, .location-bar:backdrop { border-color: #d5d0cc; background-color: #eae8e6; box-shadow: none; transition: 200ms ease-out; }

@@ -1,0 +1,17 @@
+messagedialog .titlebar { min-height: 20px; background-image: none; background-color: #f6f5f4; border-style: none; border-top-left-radius: 7px; border-top-right-radius: 7px; }
+
+messagedialog.csd.background { border-bottom-left-radius: 9px; border-bottom-right-radius: 9px; }
+
+messagedialog.csd .dialog-action-area button { padding: 10px 14px; border-radius: 0; border-left-style: solid; border-right-style: none; border-bottom-style: none; }
+
+messagedialog.csd .dialog-action-area button:first-child { border-left-style: none; border-bottom-left-radius: 7px; -gtk-outline-bottom-left-radius: 5px; }
+
+messagedialog.csd .dialog-action-area button:last-child { border-bottom-right-radius: 7px; -gtk-outline-bottom-right-radius: 5px; }
+
+filechooser .dialog-action-box { border-top: 1px solid #cdc7c2; }
+
+filechooser .dialog-action-box:backdrop { border-top-color: #d5d0cc; }
+
+filechooser #pathbarbox { border-bottom: 1px solid #f6f5f4; }
+
+filechooserbutton:drop(active) { box-shadow: none; border-color: transparent; }

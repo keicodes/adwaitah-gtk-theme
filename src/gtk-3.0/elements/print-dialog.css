@@ -1,0 +1,5 @@
+printdialog paper { color: #2e3436; border: 1px solid #cdc7c2; background: white; padding: 0; }
+
+printdialog paper:backdrop { color: #929595; border-color: #d5d0cc; }
+
+printdialog .dialog-action-box { margin: 12px; }

@@ -1,0 +1,23 @@
+.sidebar { border-style: none; background-color: #f1f1f1; }
+
+stacksidebar.sidebar:dir(ltr) list, stacksidebar.sidebar.left list, stacksidebar.sidebar.left:dir(rtl) list, .sidebar:not(separator):dir(ltr), .sidebar:not(separator).left, .sidebar:not(separator).left:dir(rtl) { border-right: 1px solid #cdc7c2; border-left-style: none; }
+
+stacksidebar.sidebar:dir(rtl) list .sidebar:not(separator):dir(rtl), stacksidebar.sidebar.right list .sidebar:not(separator):dir(rtl), .sidebar:not(separator).right { border-left: 1px solid #cdc7c2; border-right-style: none; }
+
+.sidebar:backdrop { background-color: #f9f9f8; border-color: #d5d0cc; transition: 200ms ease-out; }
+
+.sidebar list { background-color: transparent; }
+
+paned .sidebar.left, paned .sidebar.right, paned .sidebar.left:dir(rtl), paned .sidebar:dir(rtl), paned .sidebar:dir(ltr), paned .sidebar { border-style: none; }
+
+stacksidebar row { padding: 10px 4px; }
+
+stacksidebar row > label { padding-left: 6px; padding-right: 6px; }
+
+stacksidebar row.needs-attention > label { background-size: 6px 6px, 0 0; }
+
+separator.sidebar { background-color: #cdc7c2; }
+
+separator.sidebar:backdrop { background-color: #fcfcfc; }
+
+separator.sidebar.selection-mode, .selection-mode separator.sidebar { background-color: #456aff; }

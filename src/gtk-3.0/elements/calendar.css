@@ -1,0 +1,23 @@
+calendar { color: black; border: 1px solid #cdc7c2; }
+
+calendar:selected { border-radius: 3px; }
+
+calendar.header { border-bottom-color: rgba(0, 0, 0, 0.1); }
+
+calendar.header:backdrop { border-bottom-color: rgba(0, 0, 0, 0.1); }
+
+calendar.button { color: rgba(46, 52, 54, 0.45); }
+
+calendar.button:hover { color: #2e3436; }
+
+calendar.button:backdrop { color: rgba(146, 149, 149, 0.45); }
+
+calendar.button:disabled { color: rgba(146, 149, 149, 0.45); }
+
+calendar.highlight { color: #929595; }
+
+calendar.highlight:backdrop { color: #d4cfca; }
+
+calendar:backdrop { color: #323232; border-color: #d5d0cc; }
+
+calendar:indeterminate { color: alpha(currentColor,0.1); }

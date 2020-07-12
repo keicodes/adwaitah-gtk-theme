@@ -1,0 +1,31 @@
+levelbar.horizontal block { min-height: 1px; }
+
+levelbar.horizontal.discrete block { margin: 0 1px; min-width: 32px; }
+
+levelbar.vertical block { min-width: 1px; }
+
+levelbar.vertical.discrete block { margin: 1px 0; min-height: 32px; }
+
+levelbar:backdrop { transition: 200ms ease-out; }
+
+levelbar trough { border: 1px solid; padding: 2px; border-radius: 3px; color: black; border-color: #cdc7c2; background-color: #ffffff; box-shadow: inset 0 0 0 1px rgba(53, 132, 228, 0); }
+
+levelbar trough:backdrop { color: #323232; border-color: #d5d0cc; background-color: #fcfcfc; box-shadow: none; }
+
+levelbar block { border: 1px solid; border-radius: 1px; }
+
+levelbar block.low { border-color: #8f4700; background-color: #f57900; }
+
+levelbar block.low:backdrop { border-color: #f57900; }
+
+levelbar block.high, levelbar block:not(.empty) { border-color: #15539e; background-color: #3584e4; }
+
+levelbar block.high:backdrop, levelbar block:not(.empty):backdrop { border-color: #3584e4; }
+
+levelbar block.full { border-color: #1d814a; background-color: #33d17a; }
+
+levelbar block.full:backdrop { border-color: #33d17a; }
+
+levelbar block.empty { background-color: transparent; border-color: rgba(46, 52, 54, 0.2); }
+
+levelbar block.empty:backdrop { border-color: rgba(146, 149, 149, 0.15); }

@@ -1,0 +1,21 @@
+modelbutton.flat, .menuitem.button.flat { min-height: 26px; padding-left: 5px; padding-right: 5px; border-radius: 4px; outline-offset: -2px; }
+
+modelbutton.flat:hover, .menuitem.button.flat:hover { color: #ffffff; background-color: #456aff; }
+
+modelbutton.flat arrow { background: none; }
+
+modelbutton.flat arrow:hover { background: none; }
+
+modelbutton.flat arrow.left { -gtk-icon-source: -gtk-icontheme("pan-start-symbolic"); }
+
+modelbutton.flat arrow.right { -gtk-icon-source: -gtk-icontheme("pan-end-symbolic"); }
+
+button.color { padding: 4px; }
+
+button.color colorswatch:only-child { box-shadow: 0 1px rgba(255, 255, 255, 0.769231); }
+
+button.color colorswatch:only-child, button.color colorswatch:only-child overlay { border-radius: 0; }
+
+.osd button.color colorswatch:only-child { box-shadow: none; }
+
+.osd button.color:disabled colorswatch:only-child, .osd button.color:backdrop colorswatch:only-child, .osd button.color:active colorswatch:only-child, .osd button.color:checked colorswatch:only-child, button.color:disabled colorswatch:only-child, button.color:backdrop colorswatch:only-child, button.color:active colorswatch:only-child, button.color:checked colorswatch:only-child { box-shadow: none; }

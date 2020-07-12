@@ -1,0 +1,3 @@
+combobox arrow { -gtk-icon-source: -gtk-icontheme("pan-down-symbolic"); min-height: 16px; min-width: 16px; }
+
+combobox:drop(active) { box-shadow: none; }

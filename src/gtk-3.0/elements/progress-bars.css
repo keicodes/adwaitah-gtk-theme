@@ -1,0 +1,29 @@
+progressbar { font-size: smaller; color: rgba(46, 52, 54, 0.4); }
+
+progressbar.horizontal trough, progressbar.horizontal progress { min-height: 2px; }
+
+progressbar.vertical trough, progressbar.vertical progress { min-width: 2px; }
+
+progressbar.horizontal progress { margin: 0 -1px; }
+
+progressbar.vertical progress { margin: -1px 0; }
+
+progressbar:backdrop { box-shadow: none; transition: 200ms ease-out; }
+
+progressbar progress { border-radius: 1.5px; }
+
+progressbar progress.left { border-top-left-radius: 2px; border-bottom-left-radius: 2px; }
+
+progressbar progress.right { border-top-right-radius: 2px; border-bottom-right-radius: 2px; }
+
+progressbar progress.top { border-top-right-radius: 2px; border-top-left-radius: 2px; }
+
+progressbar progress.bottom { border-bottom-right-radius: 2px; border-bottom-left-radius: 2px; }
+
+progressbar.osd { min-width: 3px; min-height: 3px; background-color: transparent; }
+
+progressbar.osd trough { border-style: none; border-radius: 0; background-color: transparent; box-shadow: none; }
+
+progressbar.osd progress { border-style: none; border-radius: 0; }
+
+progressbar trough.empty progress { all: unset; }

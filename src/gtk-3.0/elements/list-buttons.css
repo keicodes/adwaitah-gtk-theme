@@ -1,0 +1,2 @@
+/* tone down as per new designs, see issue #1473 */
+list row button { border: 1px solid rgba(199, 199, 199, 0.3); }

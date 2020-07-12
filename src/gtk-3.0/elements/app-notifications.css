@@ -1,0 +1,5 @@
+.app-notification, .app-notification.frame { padding: 10px; border-radius: 0 0 5px 5px; background-color: rgba(36, 33, 42, 0.7); background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), transparent 2px); background-clip: padding-box; }
+
+.app-notification:backdrop, .app-notification.frame:backdrop { background-image: none; transition: 200ms ease-out; }
+
+.app-notification border, .app-notification.frame border { border: none; }
