@@ -1,8 +1,8 @@
-paned > separator { min-width: 1px; min-height: 1px; -gtk-icon-source: none; border-style: none; background-color: transparent; background-image: image(#cdc7c2); background-size: 1px 1px; }
+paned > separator { min-width: 1px; min-height: 1px; -gtk-icon-source: none; border-style: none; background-color: transparent; background-image: image(#f1f1f1); background-size: 1px 1px; }
 
 paned > separator:selected { background-image: image(#3584e4); }
 
-paned > separator:backdrop { background-image: image(#d5d0cc); }
+paned > separator:backdrop { background-image: image(#fcfcfc); }
 
 paned > separator.wide { min-width: 5px; min-height: 5px; background-color: #f6f5f4; background-image: image(#cdc7c2), image(#cdc7c2); background-size: 1px 1px, 1px 1px; }
 

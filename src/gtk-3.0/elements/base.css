@@ -1,4 +1,3 @@
-
 /* Background and Titlebar colors */
 .background { color: #616161; background-color: #ffffff; }
 .background:backdrop { color: #929595; background-color: #fcfcfc; text-shadow: none; -gtk-icon-shadow: none; }
@@ -18,7 +17,7 @@
 
 .view, iconview, .view text, iconview text, textview text { color: #666666; background-color: #ffffff; }
 
-.view:backdrop, iconview:backdrop, .view text:backdrop, iconview text:backdrop, textview text:backdrop { color: #929595; background-color: #ffffff; }
+.view:backdrop, iconview:backdrop, .view text:backdrop, iconview text:backdrop, textview text:backdrop { color: #929595; background-color: #fcfcfc; }
 
 .view:backdrop:disabled, iconview:backdrop:disabled, .view text:backdrop:disabled, iconview text:backdrop:disabled, textview text:backdrop:disabled { color: #d4cfca; }
 
