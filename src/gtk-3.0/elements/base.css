@@ -1,8 +1,7 @@
 /* Background and Titlebar colors */
-.background { color: #616161; background-color: #ffffff; }
+.background { color: #444444; background-color: #ffffff; }
 .background:backdrop { color: #929595; background-color: #fcfcfc; text-shadow: none; -gtk-icon-shadow: none; }
 
-/* These wildcard seems unavoidable, need to investigate. Wildcards are bad and troublesome, use them with care, or better, just don't. Everytime a wildcard is used a kitten dies, painfully. */
 *:disabled { -gtk-icon-effect: dim; }
 
 .gtkstyle-fallback { color: #2e3436; background-color: #f6f5f4; }
