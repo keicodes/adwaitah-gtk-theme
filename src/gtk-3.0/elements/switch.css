@@ -1,6 +1,6 @@
 switch { outline-offset: -4px; border: 1px solid #f5f5f5; border-radius: 14px; color: #2e3436; background-color: #fcfcfc; text-shadow: 0 1px rgba(0, 0, 0, 0.1); /* only show i / o for the accessible theme */ }
 
-switch:checked { color: #ffffff; border-color: #185fb4; background-color: #456aff; text-shadow: 0 1px rgba(24, 95, 180, 0.5), 0 0 2px rgba(255, 255, 255, 0.6); }
+switch:checked { color: #ffffff; border-color: #456aff; background-color: #456aff; text-shadow: 0 1px rgba(24, 95, 180, 0.5), 0 0 2px rgba(255, 255, 255, 0.6); }
 
 switch:disabled { color: #929595; border-color: #f5f5f5; background-color: #fcfcfc; text-shadow: none; }
 
